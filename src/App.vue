@@ -57,7 +57,7 @@ const result = computed(() => {
 .container {
   max-width: 100%;
   height: 100vh;
-  padding: 20px;
+  padding: 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,6 +137,7 @@ input:focus {
   #app {
     padding: 20px;
   }
+
 }
 
 @media only screen and (max-width: 375px) {
