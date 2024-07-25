@@ -137,10 +137,7 @@ input:focus {
   #app {
     padding: 20px;
   }
-  .container{
-    padding: 0 80px;
-    height: auto;
-  }
+
 }
 
 @media only screen and (max-width: 375px) {
