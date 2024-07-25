@@ -138,7 +138,7 @@ input:focus {
     padding: 20px;
   }
   .container{
-    padding: 60px;
+    padding: 0 80px;
     height: auto;
   }
 }
