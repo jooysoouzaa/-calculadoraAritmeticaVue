@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('/src/assets/bg_calc.webp') no-repeat center center fixed;
+  background-size: cover;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+/* CONFIGURAÇÕES DA SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #010101;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: #1D8A99;
+  border: 1px solid #0E191A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: #1D8A99;
+  border: 1px solid #000000;
+}
+
+*::selection {
+  color: #000000;
+  background: #1D8A99;
+  -webkit-text-fill-color: #000000;
+}
